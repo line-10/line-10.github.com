@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Hello World!
+layout: index
+title: 十号线
 ---
 {% include JB/setup %}
 
