@@ -1,22 +1,37 @@
 ---
-layout: page
+layout: index
 title: 关于我们
 header: Posts By Category
 group: navigation
 ---
 {% include JB/setup %}
 
-<ul class="tag_box inline">
-  {% assign categories_list = site.categories %}
-  {% include JB/categories_list %}
-</ul>
+<div class="row">
+    <div class="span7">
+        <h3>工作室简介</h3>
+        <p>十号线创立于2012年，自创立以来我们专注于移动应用研发，我们创始人来自各大知名公司，并拥有一批经验丰富的技术开发团队，拥有完善的信息管理及客户服务管理制度，具有雄厚的技术力量。</p>
+        <p>十号线始终坚持以技术为支撑，以人才为基石，以现代管理为手段，为广大客户提供一流的产品和服务。坚持技术领先，促进行业发展，提升自我价值，是imtkoo不懈的追求！</p>
+        <p>十号线成立至今已经积累了很多客户，我们快速的响应用和精艺求精的服务态度得到了客户的一至好评，我们的合作将是我们共同的成功。</p>
+    </div>
+    <div class="span5">
+        <img src="assets/img/office.jpg" alt="" />
+    </div>
+</div>
 
-
-{% for category in site.categories %} 
-  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
-  <ul>
-    {% assign pages_list = category[1] %}  
-    {% include JB/pages_list %}
-  </ul>
-{% endfor %}
-
+<div>
+    <h3 class="panel-title">团队成员</h3>
+    <div class="row">
+        <img src="assets/img/wangpan.jpg" alt="" class="span2"/>
+        <div class="span4">
+            <h4>王攀</h4>
+            <br/>
+            <p>美国社交网站Facebook的创办人，被人们冠以“盖茨第二”的美誉。哈佛大学计算机和心理学专业辍学生。据《福布斯》杂志保守估计，马克·扎克伯格拥有135亿美元身家，是08年全球最年轻的单身巨富，也是历来全球最年轻的自行创业亿万富豪。</p>
+        </div>
+        <img src="assets/img/wangpan.jpg" alt="" class="span2"/>
+        <div class="span4">
+            <h4>王攀</h4>
+            <br/>
+            <p>美国社交网站Facebook的创办人，被人们冠以“盖茨第二”的美誉。哈佛大学计算机和心理学专业辍学生。据《福布斯》杂志保守估计，马克·扎克伯格拥有135亿美元身家，是08年全球最年轻的单身巨富，也是历来全球最年轻的自行创业亿万富豪。</p>
+        </div>
+    </div>
+</div>
