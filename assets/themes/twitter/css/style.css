@@ -25,6 +25,11 @@ body {
 .topbar .btn {
   border: 0;
 }
+.footer {
+    border-top: 1px solid #70A114;
+    margin-top: 10px;
+    padding-top: 20px;
+}
 
 
 /* tag_box ======================================================== */
@@ -58,4 +63,8 @@ body {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
-	
+
+.panel-title {
+    border-bottom: 2px solid #70A114;
+    margin-bottom: 10px;
+}

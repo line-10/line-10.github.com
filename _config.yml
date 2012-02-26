@@ -10,7 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : 十号线工作室
-tagline: Site Tagline
+tagline: 
 author :
   name : line-10
   email : line-10@qq.com
